@@ -1,5 +1,5 @@
 from django.conf.urls import url
-from tutorials import views
+import views
 
 urlpatterns = [
     url(r'^api/tutorials$', views.tutorial_list),

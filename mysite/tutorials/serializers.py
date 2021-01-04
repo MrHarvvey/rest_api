@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from tutorials.models import Tutorial
+from models import Tutorial
 
 
 class TutorialSerializer(serializers.ModelSerializer):
